@@ -1,26 +1,34 @@
 body {
-    background-color: rgb(188, 214, 141);
+    background-color: rgb(158, 126, 158);
     font-family: arial, sans-serif;
     text-align: center;
 }
 
 h1 {
-    color: rgb(85, 100, 44);
+    color: rgb(34, 50, 122);
     font-size:50;
-    border: 2px solid rgb(30, 151, 91);
+    border: 2px solid rgb(34, 50, 122)
     
 }
 h2 {
-    color: rgb(98, 44, 100);
+    color: rgb(64, 51, 99);
     font-size:50;
-    border: 2px solid rgb(30, 185, 108);
+    
+    text-align: left;
     
 }
-p {
-    color: #502763;
+h4 {
+    color: #372855;
     font-size: 20px;
-    border: 2px solid rgb(30, 151, 91);
+    border: 2px solid rgb(34, 50, 122);
 }
+p{ 
+    color: #372855;
+    text-align: left;
+}
+
+
+
 
     {
    div{}
@@ -39,19 +47,40 @@ form input{
 nav{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(47, 94, 40);
+    background-color: rgb(47, 60, 102);
     padding: 10px;
 
 }
-nav a {
-    color:aliceblue;
+nav p{
+    text-align: left;
+    color:rgb(180, 175, 219);
     text-decoration: none ;
     margin: 0 50px;
 }
-section{
+nav a {
+    
+    color:rgb(180, 175, 219);
+    text-decoration: none ;
+    margin: 0 50px;
+}
+.sobreMi {
     ul{
     color: rgb(79, 42, 165);
     background-color:rosybrown;
     text-align:left;
     }
+}
+.comunicacion{
+    text-align: left;
+    
+    p{
+        color:rgb(64, 47, 109) ;
+       padding: 2px solid   rgb(34, 50, 122) ; 
+    }
+    
+}
+.contacto{
+    width: 70px ;
+    height:70px ;
+    align-items: ;
 }
